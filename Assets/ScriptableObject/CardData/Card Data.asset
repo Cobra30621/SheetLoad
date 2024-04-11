@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caf5ca8cbdbe41a890afcd7725383755, type: 3}
+  m_Name: Card Data
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardId: "\u63EE\u528D"
+  cardLevels:
+  - ID: 10001
+    EnGroupID: Slash
+    GroupID: "\u63EE\u528D"
+    EffectID: 2005
+    Mana: 0
+    EffectInfos:
+    - ActionType: 1
+      EffectID: 2005
+      action: 
+      int1: 5
+      int2: 0
+      int3: 0
+      float1: 0
+  - ID: 10002
+    EnGroupID: Slash
+    GroupID: "\u63EE\u528D"
+    EffectID: 2005, 3002
+    Mana: 0
+    EffectInfos:
+    - ActionType: 1
+      EffectID: 2005
+      action: 
+      int1: 5
+      int2: 0
+      int3: 0
+      float1: 0
+    - ActionType: 10
+      EffectID: 3002
+      action: 
+      int1: 2
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10003
+    EnGroupID: Slash
+    GroupID: "\u63EE\u528D"
+    EffectID: 2005, 3003
+    Mana: 0
+    EffectInfos:
+    - ActionType: 1
+      EffectID: 2005
+      action: 
+      int1: 5
+      int2: 0
+      int3: 0
+      float1: 0
+    - ActionType: 10
+      EffectID: 3003
+      action: 
+      int1: 3
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10004
+    EnGroupID: Slash
+    GroupID: "\u63EE\u528D"
+    EffectID: 2005, 3004
+    Mana: 0
+    EffectInfos:
+    - ActionType: 1
+      EffectID: 2005
+      action: 
+      int1: 5
+      int2: 0
+      int3: 0
+      float1: 0
+    - ActionType: 10
+      EffectID: 3004
+      action: 
+      int1: 4
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10005
+    EnGroupID: Slash
+    GroupID: "\u63EE\u528D"
+    EffectID: 2005, 3005
+    Mana: 0
+    EffectInfos:
+    - ActionType: 1
+      EffectID: 2005
+      action: 
+      int1: 5
+      int2: 0
+      int3: 0
+      float1: 0
+    - ActionType: 10
+      EffectID: 3005
+      action: 
+      int1: 5
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10006
+    EnGroupID: Slash
+    GroupID: "\u63EE\u528D"
+    EffectID: 2005, 3006
+    Mana: 0
+    EffectInfos:
+    - ActionType: 1
+      EffectID: 2005
+      action: 
+      int1: 5
+      int2: 0
+      int3: 0
+      float1: 0
+    - ActionType: 10
+      EffectID: 3006
+      action: 
+      int1: 6
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10007
+    EnGroupID: Slash
+    GroupID: "\u63EE\u528D"
+    EffectID: 2005, 3007
+    Mana: 0
+    EffectInfos:
+    - ActionType: 1
+      EffectID: 2005
+      action: 
+      int1: 5
+      int2: 0
+      int3: 0
+      float1: 0
+    - ActionType: 10
+      EffectID: 3007
+      action: 
+      int1: 7
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10008
+    EnGroupID: Slash
+    GroupID: "\u63EE\u528D"
+    EffectID: 2005, 3008
+    Mana: 0
+    EffectInfos:
+    - ActionType: 1
+      EffectID: 2005
+      action: 
+      int1: 5
+      int2: 0
+      int3: 0
+      float1: 0
+    - ActionType: 10
+      EffectID: 3008
+      action: 
+      int1: 8
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10009
+    EnGroupID: Slash
+    GroupID: "\u63EE\u528D"
+    EffectID: 2005, 3009
+    Mana: 0
+    EffectInfos:
+    - ActionType: 1
+      EffectID: 2005
+      action: 
+      int1: 5
+      int2: 0
+      int3: 0
+      float1: 0
+    - ActionType: 10
+      EffectID: 3009
+      action: 
+      int1: 9
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10010
+    EnGroupID: Slash
+    GroupID: "\u63EE\u528D"
+    EffectID: 2005, 3010
+    Mana: 0
+    EffectInfos:
+    - ActionType: 1
+      EffectID: 2005
+      action: 
+      int1: 5
+      int2: 0
+      int3: 0
+      float1: 0
+    - ActionType: 10
+      EffectID: 3010
+      action: 
+      int1: 10
+      int2: 3
+      int3: 0
+      float1: 0

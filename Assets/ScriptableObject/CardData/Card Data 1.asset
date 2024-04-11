@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caf5ca8cbdbe41a890afcd7725383755, type: 3}
+  m_Name: Card Data 1
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  cardId: "\u683C\u64CB"
+  cardLevels:
+  - ID: 10011
+    EnGroupID: Block
+    GroupID: "\u683C\u64CB"
+    EffectID: 3006
+    Mana: 0
+    EffectInfos:
+    - ActionType: 10
+      EffectID: 3006
+      action: 
+      int1: 6
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10012
+    EnGroupID: Block
+    GroupID: "\u683C\u64CB"
+    EffectID: 3008
+    Mana: 0
+    EffectInfos:
+    - ActionType: 10
+      EffectID: 3008
+      action: 
+      int1: 8
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10013
+    EnGroupID: Block
+    GroupID: "\u683C\u64CB"
+    EffectID: 3010
+    Mana: 0
+    EffectInfos:
+    - ActionType: 10
+      EffectID: 3010
+      action: 
+      int1: 10
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10014
+    EnGroupID: Block
+    GroupID: "\u683C\u64CB"
+    EffectID: 3012
+    Mana: 0
+    EffectInfos:
+    - ActionType: 10
+      EffectID: 3012
+      action: 
+      int1: 12
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10015
+    EnGroupID: Block
+    GroupID: "\u683C\u64CB"
+    EffectID: 3014
+    Mana: 0
+    EffectInfos:
+    - ActionType: 10
+      EffectID: 3014
+      action: 
+      int1: 14
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10016
+    EnGroupID: Block
+    GroupID: "\u683C\u64CB"
+    EffectID: 3016
+    Mana: 0
+    EffectInfos:
+    - ActionType: 10
+      EffectID: 3016
+      action: 
+      int1: 16
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10017
+    EnGroupID: Block
+    GroupID: "\u683C\u64CB"
+    EffectID: 3018
+    Mana: 0
+    EffectInfos:
+    - ActionType: 10
+      EffectID: 3018
+      action: 
+      int1: 18
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10018
+    EnGroupID: Block
+    GroupID: "\u683C\u64CB"
+    EffectID: 3020
+    Mana: 0
+    EffectInfos:
+    - ActionType: 10
+      EffectID: 3020
+      action: 
+      int1: 20
+      int2: 3
+      int3: 0
+      float1: 0
+  - ID: 10019
+    EnGroupID: Block
+    GroupID: "\u683C\u64CB"
+    EffectID: 3020, 9001
+    Mana: 0
+    EffectInfos:
+    - ActionType: 10
+      EffectID: 3020
+      action: 
+      int1: 20
+      int2: 3
+      int3: 0
+      float1: 0
+    - ActionType: 0
+      EffectID: 9001
+      action: 
+      int1: 0
+      int2: 0
+      int3: 0
+      float1: 0
+  - ID: 10020
+    EnGroupID: Block
+    GroupID: "\u683C\u64CB"
+    EffectID: 3020, 9002
+    Mana: 0
+    EffectInfos:
+    - ActionType: 10
+      EffectID: 3020
+      action: 
+      int1: 20
+      int2: 3
+      int3: 0
+      float1: 0
+    - ActionType: 0
+      EffectID: 9002
+      action: 
+      int1: 0
+      int2: 0
+      int3: 0
+      float1: 0

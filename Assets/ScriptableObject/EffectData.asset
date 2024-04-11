@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea8b183750b34d96b2ea6268b977b76a, type: 3}
+  m_Name: EffectData
+  m_EditorClassIdentifier: 
+  url: https://opensheet.elk.sh/17o-e5oCXd3G-jgaeQcWVH2am7DFnWY5afiKsLWWvOQs/EffectID
+  effectInfos:
+  - ActionType: 1
+    EffectID: 2001
+    action: 
+    int1: 1
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2002
+    action: 
+    int1: 2
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2003
+    action: 
+    int1: 3
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2004
+    action: 
+    int1: 4
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2005
+    action: 
+    int1: 5
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2006
+    action: 
+    int1: 6
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2007
+    action: 
+    int1: 7
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2008
+    action: 
+    int1: 8
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2009
+    action: 
+    int1: 9
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2010
+    action: 
+    int1: 10
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2011
+    action: 
+    int1: 11
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2012
+    action: 
+    int1: 12
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2013
+    action: 
+    int1: 13
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2014
+    action: 
+    int1: 14
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2015
+    action: 
+    int1: 15
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2016
+    action: 
+    int1: 16
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2017
+    action: 
+    int1: 17
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2018
+    action: 
+    int1: 18
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2019
+    action: 
+    int1: 19
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 1
+    EffectID: 2020
+    action: 
+    int1: 20
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3001
+    action: 
+    int1: 1
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3002
+    action: 
+    int1: 2
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3003
+    action: 
+    int1: 3
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3004
+    action: 
+    int1: 4
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3005
+    action: 
+    int1: 5
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3006
+    action: 
+    int1: 6
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3007
+    action: 
+    int1: 7
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3008
+    action: 
+    int1: 8
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3009
+    action: 
+    int1: 9
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3010
+    action: 
+    int1: 10
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3011
+    action: 
+    int1: 11
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3012
+    action: 
+    int1: 12
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3013
+    action: 
+    int1: 13
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3014
+    action: 
+    int1: 14
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3015
+    action: 
+    int1: 15
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3016
+    action: 
+    int1: 16
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3017
+    action: 
+    int1: 17
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3018
+    action: 
+    int1: 18
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3019
+    action: 
+    int1: 19
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 10
+    EffectID: 3020
+    action: 
+    int1: 20
+    int2: 3
+    int3: 0
+    float1: 0
+  - ActionType: 0
+    EffectID: 9001
+    action: 
+    int1: 0
+    int2: 0
+    int3: 0
+    float1: 0
+  - ActionType: 0
+    EffectID: 9002
+    action: 
+    int1: 0
+    int2: 0
+    int3: 0
+    float1: 0

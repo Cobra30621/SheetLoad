@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c539d0db94640bf9d2ed7e1731de533, type: 3}
+  m_Name: Save Dect
+  m_EditorClassIdentifier: 
+  deckId: 
+  deckName: "\u5132\u5B58\u724C\u7D44"
+  cardList:
+  - {fileID: 11400000, guid: 5db070d2ce5a848879d17a7c4fb93f9d, type: 2}
+  - {fileID: 11400000, guid: 26e1ad7e0fc314e29919fb60e493c474, type: 2}
