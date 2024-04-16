@@ -9,9 +9,9 @@ namespace GameAction
         
         public Target Target;
         
-        public override void SetEffectInfo(EffectInfo effectInfo)
+        public override void SetEffectInfo(SkillInfo skillInfo)
         {
-            damageValue = effectInfo.int1;
+            damageValue = skillInfo.int1;
         }
 
         public override void DoAction()

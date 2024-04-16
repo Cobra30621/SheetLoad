@@ -8,17 +8,19 @@ namespace Card
 {
     public class CardEditorTool : MonoBehaviour
     {
+        [InlineEditor]
         public DeckData SaveDeck;
+        [InlineEditor]
         public CardLevelData cardLevelData;
-        public EffectData EffectData;
+        [InlineEditor]
+        public SkillData skillData;
 
         [Button("讀取卡牌資料")]
         public void LoadCardData()
         {
-            var cardLevelInfos = cardLevelData.GetAllCardInfo();
             foreach (var card in SaveDeck.CardList)
             {
-                var levelInfos = GetLevelInfo(cardLevelInfos, card.CardId);
+                var levelInfos = GetLevelInfo( card.CardId);
                 
                 foreach (var levelInfo in levelInfos)
                 {
@@ -33,15 +35,15 @@ namespace Card
             AssetDatabase.SaveAssets();
         }
 
-        private static List<CardLevelInfo> GetLevelInfo(List<CardLevelInfo> cardLevelInfos, string cardId)
+        private List<CardLevelInfo> GetLevelInfo(string cardId)
         {
-            return cardLevelInfos.
+            return cardLevelData.GetAllCardInfo().
                 Where(x => x.GroupID == cardId).ToList();
         }
 
-        private List<EffectInfo> GetEffectInfo(List<int> effectId)
+        private List<SkillInfo> GetEffectInfo(List<int> effectId)
         {
-            return EffectData.GetAllCardInfo().Where(x =>  effectId.Contains(x.EffectID)).ToList();
+            return skillData.GetAllCardInfo().Where(x =>  effectId.Contains(x.EffectID)).ToList();
         }
         
         static List<int> ConvertStringToList(string input)

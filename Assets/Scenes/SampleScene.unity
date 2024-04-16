@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SaveDeck: {fileID: 11400000, guid: 6df25fab5a83348d2ab2a0fe92820920, type: 2}
   cardLevelData: {fileID: 11400000, guid: e4e0479f21be54189b0cfc6f85d1c675, type: 2}
-  EffectData: {fileID: 11400000, guid: 6b4b709c4271f452fb86d5ccc21b52cf, type: 2}
+  skillData: {fileID: 11400000, guid: 6b4b709c4271f452fb86d5ccc21b52cf, type: 2}
 --- !u!4 &350679370
 Transform:
   m_ObjectHideFlags: 0
@@ -262,9 +262,76 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1364061117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1364061119}
+  - component: {fileID: 1364061118}
+  m_Layer: 0
+  m_Name: CollectionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1364061118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364061117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc668e5c107f46dfb697ddfda8f8490c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 26e1ad7e0fc314e29919fb60e493c474, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: Card
+      Entry: 7
+      Data: 0|Card.BattleCard, Assembly-CSharp
+    - Name: CardData
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+  DrawPile:
+  - {fileID: 11400000, guid: 5db070d2ce5a848879d17a7c4fb93f9d, type: 2}
+  - {fileID: 11400000, guid: 26e1ad7e0fc314e29919fb60e493c474, type: 2}
+--- !u!4 &1364061119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364061117}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 350679370}
+  - {fileID: 1364061119}

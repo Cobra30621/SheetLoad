@@ -8,8 +8,8 @@ using Utilities;
 
 namespace Card
 {
-    [CreateAssetMenu(fileName = "EffectData",menuName = "EffectData",order = 0)]
-    public class EffectData : ScriptableObject
+    [CreateAssetMenu(fileName = "SkillData",menuName = "SkillData",order = 0)]
+    public class SkillData : ScriptableObject
     {
         #region Private Variables
 
@@ -17,18 +17,18 @@ namespace Card
         [LabelWidth(30)]
         [LabelText("Url:")]
         [BoxGroup("LoadData")]
-        private string url = "https://opensheet.elk.sh/17o-e5oCXd3G-jgaeQcWVH2am7DFnWY5afiKsLWWvOQs/EffectData";
+        private string url = "https://opensheet.elk.sh/17o-e5oCXd3G-jgaeQcWVH2am7DFnWY5afiKsLWWvOQs/SkillData";
 
         [SerializeField]
         [TableList]
-        private EffectInfo[] effectInfos;
+        private SkillInfo[] effectInfos;
 
         #endregion
         
         
         #region Public Methods
 
-        public List<EffectInfo> GetAllCardInfo()
+        public List<SkillInfo> GetAllCardInfo()
         {
             return effectInfos.ToList();
         }
@@ -41,7 +41,7 @@ namespace Card
         [BoxGroup("LoadData")]
         private void ParseDataFromGoogleSheet()
         {
-            GoogleSheetService.LoadDataArray<EffectInfo>(url , infos => effectInfos = infos);
+            GoogleSheetService.LoadDataArray<SkillInfo>(url , infos => effectInfos = infos);
         }
 
         #endregion
@@ -49,7 +49,7 @@ namespace Card
     
     
     [Serializable]
-    public class EffectInfo
+    public class SkillInfo
     {
         public GameActionType ActionType;
         public int EffectID;

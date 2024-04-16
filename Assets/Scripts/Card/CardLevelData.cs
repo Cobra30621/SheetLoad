@@ -56,21 +56,14 @@ namespace Card
         public string EffectID;
         public int Mana;
 
-        public List<EffectInfo> EffectInfos;
+        public List<SkillInfo> EffectInfos;
 
-        public void SetEffect(List<EffectInfo> effectInfos)
+        public void SetEffect(List<SkillInfo> effectInfos)
         {
             EffectInfos = effectInfos;
         }
 
-        [Button("執行所有的方法")]
-        public void DoAction()
-        {
-            foreach (var effectInfo in EffectInfos)
-            {
-                GameActionFactory.DoGameAction(effectInfo);
-            }
-        }
+        
     }
 
 }

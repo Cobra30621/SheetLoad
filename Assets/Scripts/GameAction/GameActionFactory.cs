@@ -1,13 +1,14 @@
 using Card;
+using UnityEngine;
 
 namespace GameAction
 {
-    public class GameActionFactory
+    public static class GameActionFactory
     {
-        public static void DoGameAction(EffectInfo effectInfo)
+        public static GameActionBase GetGameAction(SkillInfo skillInfo)
         {
             GameActionBase action = new DamageAction();
-            switch (effectInfo.ActionType)
+            switch (skillInfo.ActionType)
             {
                 case GameActionType.ApplyPower:
                     action = new ApplyPowerAction();
@@ -15,10 +16,15 @@ namespace GameAction
                 case GameActionType.Damage:
                     action = new DamageAction();
                     break;
+                default:
+                    Debug.LogError("无效的技能类型");
+                    break;
             }
-            
-            action.SetEffectInfo(effectInfo);
-            action.DoAction();
+
+            action.SetEffectInfo(skillInfo);
+            return action;
         }
+        
+       
     }
 }

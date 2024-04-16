@@ -7,7 +7,7 @@ namespace GameAction
         public float amount;
         public CounterType counterType;
         
-        public override void SetEffectInfo(EffectInfo effectInfo)
+        public override void SetEffectInfo(SkillInfo skillInfo)
         {
             throw new System.NotImplementedException();
         }

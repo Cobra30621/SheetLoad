@@ -7,10 +7,10 @@ namespace GameAction
     {
         public PowerType applyPower;
         public int amount;
-        public override void SetEffectInfo(EffectInfo effectInfo)
+        public override void SetEffectInfo(SkillInfo skillInfo)
         {
-            amount = effectInfo.int1;
-            applyPower = (PowerType)effectInfo.int2;
+            amount = skillInfo.int1;
+            applyPower = (PowerType)skillInfo.int2;
         }
 
         public override void DoAction()
