@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26f9b59887ae426ba56ce75461104cef, type: 3}
   m_Name: CardLevelData
   m_EditorClassIdentifier: 
-  url: https://opensheet.elk.sh/17o-e5oCXd3G-jgaeQcWVH2am7DFnWY5afiKsLWWvOQs/CardLevelData
+  url: -e5oCXd3G-jgaeQcWVH2am7DFnWY5afiKsLWWvOQs/CardLevelDataY5afiKsLWWvOQs/CardLevelData
   cardInfos:
   - ID: 10001
     EnGroupID: Slash
@@ -26,7 +26,6 @@ MonoBehaviour:
       int1: 5
       int2: 0
       int3: 0
-      float1: 0
   - ID: 10002
     EnGroupID: Slash
     GroupID: "\u63EE\u528D"
@@ -39,14 +38,12 @@ MonoBehaviour:
       int1: 5
       int2: 0
       int3: 0
-      float1: 0
     - ActionType: 10
       EffectID: 3002
       action: 
       int1: 2
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10003
     EnGroupID: Slash
     GroupID: "\u63EE\u528D"
@@ -59,14 +56,12 @@ MonoBehaviour:
       int1: 5
       int2: 0
       int3: 0
-      float1: 0
     - ActionType: 10
       EffectID: 3003
       action: 
       int1: 3
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10004
     EnGroupID: Slash
     GroupID: "\u63EE\u528D"
@@ -79,14 +74,12 @@ MonoBehaviour:
       int1: 5
       int2: 0
       int3: 0
-      float1: 0
     - ActionType: 10
       EffectID: 3004
       action: 
       int1: 4
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10005
     EnGroupID: Slash
     GroupID: "\u63EE\u528D"
@@ -99,14 +92,12 @@ MonoBehaviour:
       int1: 5
       int2: 0
       int3: 0
-      float1: 0
     - ActionType: 10
       EffectID: 3005
       action: 
       int1: 5
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10006
     EnGroupID: Slash
     GroupID: "\u63EE\u528D"
@@ -119,14 +110,12 @@ MonoBehaviour:
       int1: 5
       int2: 0
       int3: 0
-      float1: 0
     - ActionType: 10
       EffectID: 3006
       action: 
       int1: 6
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10007
     EnGroupID: Slash
     GroupID: "\u63EE\u528D"
@@ -139,14 +128,12 @@ MonoBehaviour:
       int1: 5
       int2: 0
       int3: 0
-      float1: 0
     - ActionType: 10
       EffectID: 3007
       action: 
       int1: 7
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10008
     EnGroupID: Slash
     GroupID: "\u63EE\u528D"
@@ -159,14 +146,12 @@ MonoBehaviour:
       int1: 5
       int2: 0
       int3: 0
-      float1: 0
     - ActionType: 10
       EffectID: 3008
       action: 
       int1: 8
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10009
     EnGroupID: Slash
     GroupID: "\u63EE\u528D"
@@ -179,14 +164,12 @@ MonoBehaviour:
       int1: 5
       int2: 0
       int3: 0
-      float1: 0
     - ActionType: 10
       EffectID: 3009
       action: 
       int1: 9
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10010
     EnGroupID: Slash
     GroupID: "\u63EE\u528D"
@@ -199,14 +182,12 @@ MonoBehaviour:
       int1: 5
       int2: 0
       int3: 0
-      float1: 0
     - ActionType: 10
       EffectID: 3010
       action: 
       int1: 10
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10011
     EnGroupID: Block
     GroupID: "\u683C\u64CB"
@@ -219,7 +200,6 @@ MonoBehaviour:
       int1: 6
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10012
     EnGroupID: Block
     GroupID: "\u683C\u64CB"
@@ -232,7 +212,6 @@ MonoBehaviour:
       int1: 8
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10013
     EnGroupID: Block
     GroupID: "\u683C\u64CB"
@@ -245,7 +224,6 @@ MonoBehaviour:
       int1: 10
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10014
     EnGroupID: Block
     GroupID: "\u683C\u64CB"
@@ -258,7 +236,6 @@ MonoBehaviour:
       int1: 12
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10015
     EnGroupID: Block
     GroupID: "\u683C\u64CB"
@@ -271,7 +248,6 @@ MonoBehaviour:
       int1: 14
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10016
     EnGroupID: Block
     GroupID: "\u683C\u64CB"
@@ -284,7 +260,6 @@ MonoBehaviour:
       int1: 16
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10017
     EnGroupID: Block
     GroupID: "\u683C\u64CB"
@@ -297,7 +272,6 @@ MonoBehaviour:
       int1: 18
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10018
     EnGroupID: Block
     GroupID: "\u683C\u64CB"
@@ -310,7 +284,6 @@ MonoBehaviour:
       int1: 20
       int2: 3
       int3: 0
-      float1: 0
   - ID: 10019
     EnGroupID: Block
     GroupID: "\u683C\u64CB"
@@ -323,14 +296,12 @@ MonoBehaviour:
       int1: 20
       int2: 3
       int3: 0
-      float1: 0
     - ActionType: 0
       EffectID: 9001
       action: 
       int1: 0
       int2: 0
       int3: 0
-      float1: 0
   - ID: 10020
     EnGroupID: Block
     GroupID: "\u683C\u64CB"
@@ -343,14 +314,12 @@ MonoBehaviour:
       int1: 20
       int2: 3
       int3: 0
-      float1: 0
     - ActionType: 0
       EffectID: 9002
       action: 
       int1: 0
       int2: 0
       int3: 0
-      float1: 0
   - ID: 10021
     EnGroupID: Shoot
     GroupID: "\u5C04\u64CA"
