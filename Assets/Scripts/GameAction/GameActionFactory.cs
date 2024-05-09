@@ -16,6 +16,9 @@ namespace GameAction
                 case GameActionType.Damage:
                     action = new DamageAction();
                     break;
+                case GameActionType.MultiDamage:
+                    action = new MultiDamageAction();
+                    break;
                 default:
                     Debug.LogError("无效的技能类型");
                     break;

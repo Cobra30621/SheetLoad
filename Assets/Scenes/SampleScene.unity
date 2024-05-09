@@ -370,7 +370,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: 26e1ad7e0fc314e29919fb60e493c474, type: 2}
+    - {fileID: 11400000, guid: fffdc835c765743b9a37525b053416bf, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -386,8 +386,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   DrawPile:
-  - {fileID: 11400000, guid: 5db070d2ce5a848879d17a7c4fb93f9d, type: 2}
-  - {fileID: 11400000, guid: 26e1ad7e0fc314e29919fb60e493c474, type: 2}
+  - {fileID: 11400000, guid: fffdc835c765743b9a37525b053416bf, type: 2}
 --- !u!4 &1364061119
 Transform:
   m_ObjectHideFlags: 0

@@ -1,4 +1,4 @@
-namespace GameAction
+namespace Power
 {
     public enum PowerType
     {

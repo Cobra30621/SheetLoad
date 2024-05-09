@@ -1,4 +1,6 @@
-namespace GameAction
+using GameAction;
+
+namespace Counter
 {
     public class CounterManager
     {

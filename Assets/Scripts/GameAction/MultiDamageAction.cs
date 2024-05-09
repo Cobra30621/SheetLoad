@@ -1,24 +1,24 @@
 using Card;
-using Power;
 using UnityEngine;
 
 namespace GameAction
 {
-    public class DamageAction : GameActionBase
+    public class MultiDamageAction : GameActionBase
     {
         public int damageValue;
+        public int damageStack;
         
-        
+        public Target Target;
         
         public override void SetEffectInfo(SkillInfo skillInfo)
         {
             damageValue = skillInfo.int1;
-            PowerType powerType;
+            damageStack = skillInfo.int2;
         }
 
         public override void DoAction()
         {
-            Debug.Log($"造成 {damageValue} 點傷害");
+            Debug.Log($"造成 {damageValue} 點傷害{damageStack}次");
         }
     }
 }
