@@ -15,7 +15,7 @@ namespace Card
         [SerializeField] private List<CardData> cardList;
         public List<CardData> CardList => cardList;
         
-
+        
         public string DeckId => deckId;
 
         public string DeckName => deckName;

@@ -4,6 +4,7 @@ using System.Linq;
 using GameAction;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Utilities;
 
 namespace Card
@@ -17,7 +18,7 @@ namespace Card
         [LabelWidth(30)]
         [LabelText("Url:")]
         [BoxGroup("LoadData")]
-        private string url = "https://opensheet.elk.sh/17o-e5oCXd3G-jgaeQcWVH2am7DFnWY5afiKsLWWvOQs/SkillData";
+        private string url = "https://opensheet.elk.sh/17o-e5oCXd3G-jgaeQcWVH2am7DFnWY5afiKsLWWvOQs/SkillData_dev";
 
         [SerializeField]
         [TableList]
@@ -52,8 +53,8 @@ namespace Card
     public class SkillInfo
     {
         public GameActionType ActionType;
-        public int EffectID;
-        public string action;
+        [FormerlySerializedAs("EffectID")] public int SkillID;
+        
 
         public int int1;
         public int int2;

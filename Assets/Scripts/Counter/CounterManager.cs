@@ -12,6 +12,8 @@ namespace Counter
                     return 0;
                 case CounterType.DrawTimes:
                     return 0;
+                case CounterType.EnemyCount:
+                    return 2;
             }
 
             return 0;

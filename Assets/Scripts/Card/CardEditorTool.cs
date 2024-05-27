@@ -43,7 +43,7 @@ namespace Card
 
         private List<SkillInfo> GetEffectInfo(List<int> effectId)
         {
-            return skillData.GetAllCardInfo().Where(x =>  effectId.Contains(x.EffectID)).ToList();
+            return skillData.GetAllCardInfo().Where(x =>  effectId.Contains(x.SkillID)).ToList();
         }
         
         static List<int> ConvertStringToList(string input)

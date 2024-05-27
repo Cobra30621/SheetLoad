@@ -17,7 +17,7 @@ namespace Card
         [LabelWidth(30)]
         [LabelText("Url:")]
         [BoxGroup("LoadData")]
-        private string url = "https://opensheet.elk.sh/17o-e5oCXd3G-jgaeQcWVH2am7DFnWY5afiKsLWWvOQs/CardLevelData";
+        private string url = "https://opensheet.elk.sh/17o-e5oCXd3G-jgaeQcWVH2am7DFnWY5afiKsLWWvOQs/CardLevelData_dev";
 
         [SerializeField]
         [TableList]

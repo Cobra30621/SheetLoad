@@ -23,6 +23,7 @@ namespace GameAction
     public enum CounterType
     {
         DamageTimes,
-        DrawTimes
+        DrawTimes,
+        EnemyCount
     }
 }

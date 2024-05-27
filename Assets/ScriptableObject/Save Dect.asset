@@ -15,5 +15,6 @@ MonoBehaviour:
   deckId: 
   deckName: "\u5132\u5B58\u724C\u7D44"
   cardList:
-  - {fileID: 11400000, guid: 5db070d2ce5a848879d17a7c4fb93f9d, type: 2}
-  - {fileID: 11400000, guid: 26e1ad7e0fc314e29919fb60e493c474, type: 2}
+  - {fileID: 11400000, guid: fa452dce005cb4468a399da565cb7a4b, type: 2}
+  - {fileID: 11400000, guid: 7b25a70a3ec0b42d2baf9a64f736e98f, type: 2}
+  - {fileID: 11400000, guid: a582c4b804e1c4c5ab6c407f1f7bfdd3, type: 2}

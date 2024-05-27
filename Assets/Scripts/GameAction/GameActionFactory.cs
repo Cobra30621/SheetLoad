@@ -19,6 +19,15 @@ namespace GameAction
                 case GameActionType.MultiDamage:
                     action = new MultiDamageAction();
                     break;
+                case GameActionType.EnemyBlock:
+                    action = new EnemyBlock();
+                    break;
+                case GameActionType.Block:
+                    action = new Block();
+                    break;
+                case GameActionType.GainMana:
+                    action = new GainMana();
+                    break;
                 default:
                     Debug.LogError("无效的技能类型");
                     break;
