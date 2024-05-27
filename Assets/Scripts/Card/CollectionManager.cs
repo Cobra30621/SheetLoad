@@ -9,18 +9,9 @@ namespace Card
         [InlineEditor]
         public List<CardData> DrawPile;
 
+        [SerializeField] private DeckData saveDeck;
+        [SerializeField] private CardLevelManager _cardLevelManager;
         
-        public CardBase Card;
-
-        [Button("抽卡")]
-        public void DrawCard()
-        {
-            Card = new BattleCard();
-            var cardData = DrawPile[Random.Range(0, DrawPile.Count)];
-            var cardLevel = CardLevelManager.GetCardLevel(cardData.CardId);
-
-            Card.SetCard(cardData, cardLevel);
-        }
-
+   
     }
 }

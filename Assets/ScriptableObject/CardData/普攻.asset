@@ -28,6 +28,7 @@ MonoBehaviour:
     GroupID: "\u666E\u653B"
     EffectID: 101
     Mana: 1
+    Description: 
     EffectInfos:
     - ActionType: 1
       SkillID: 101
@@ -39,6 +40,7 @@ MonoBehaviour:
     GroupID: "\u666E\u653B"
     EffectID: 102
     Mana: 2
+    Description: 
     EffectInfos:
     - ActionType: 1
       SkillID: 102
@@ -50,9 +52,13 @@ MonoBehaviour:
     GroupID: "\u666E\u653B"
     EffectID: 103
     Mana: 3
+    Description: 
     EffectInfos:
     - ActionType: 1
       SkillID: 103
       int1: 3
       int2: 0
       int3: 0
+  cardName: "\u666E\u653B"
+  cardSprite: {fileID: 0}
+  rarity: 0

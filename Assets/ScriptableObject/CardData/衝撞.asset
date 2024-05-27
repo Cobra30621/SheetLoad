@@ -28,6 +28,7 @@ MonoBehaviour:
     GroupID: "\u885D\u649E"
     EffectID: 101, 201
     Mana: 1
+    Description: 
     EffectInfos:
     - ActionType: 1
       SkillID: 101
@@ -44,6 +45,7 @@ MonoBehaviour:
     GroupID: "\u885D\u649E"
     EffectID: 102, 202
     Mana: 2
+    Description: 
     EffectInfos:
     - ActionType: 1
       SkillID: 102
@@ -60,6 +62,7 @@ MonoBehaviour:
     GroupID: "\u885D\u649E"
     EffectID: 103, 203
     Mana: 3
+    Description: 
     EffectInfos:
     - ActionType: 1
       SkillID: 103
@@ -71,3 +74,6 @@ MonoBehaviour:
       int1: 6
       int2: 0
       int3: 0
+  cardName: "\u885D\u649E"
+  cardSprite: {fileID: 0}
+  rarity: 0

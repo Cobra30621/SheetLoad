@@ -56,6 +56,8 @@ namespace Card
         public string EffectID;
         public int Mana;
 
+        public string Description;
+
         public List<SkillInfo> EffectInfos;
 
         public void SetEffect(List<SkillInfo> effectInfos)
