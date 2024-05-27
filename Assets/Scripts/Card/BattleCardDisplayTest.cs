@@ -2,23 +2,20 @@
 using Card.Display;
 using Sirenix.OdinInspector;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Card
 {
-    public class CardListDisplay : MonoBehaviour
+    public class BattleCardDisplayTest : MonoBehaviour
     {
-        [SerializeField] private GameObject mainPanel;
-        [SerializeField] private UICard prefab;
+        [SerializeField] private BattleCard prefab;
         
         
-        [SerializeField] private List<UICard> spawnedCardList = new List<UICard>();
+        [SerializeField] private List<BattleCard> spawnedCardList = new List<BattleCard>();
         [SerializeField] private Transform spawnPos;
 
         [Button]
         public void Open()
         {
-            mainPanel.SetActive(true);
             SetCardUI();
         }
         
@@ -50,7 +47,6 @@ namespace Card
             spawnedCardList.Clear();
         }
 
-            
-            
+
     }
 }

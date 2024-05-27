@@ -11,7 +11,7 @@ namespace Card
         [Required]
         [SerializeField] private DeckData saveDeck;
         [Required]
-        [SerializeField] private CardLevelManager _cardLevelManager;
+        [SerializeField] private readonly CardLevelHandler _cardLevelHandler = new CardLevelHandler();
 
 
         public List<CardInfo> GetAllCardInfos()
@@ -24,7 +24,7 @@ namespace Card
         
         public CardInfo CreateCardInfo(CardData cardData)
         {
-            var level = _cardLevelManager.GetCardLevel(cardData.CardId);
+            var level = _cardLevelHandler.GetCardLevel(cardData.CardId);
 
             var cardInfo = new CardInfo(cardData, level);
 

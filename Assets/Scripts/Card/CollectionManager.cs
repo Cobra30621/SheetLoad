@@ -10,7 +10,7 @@ namespace Card
         public List<CardData> DrawPile;
 
         [SerializeField] private DeckData saveDeck;
-        [SerializeField] private CardLevelManager _cardLevelManager;
+        [SerializeField] private CardLevelHandler _cardLevelHandler;
         
    
     }

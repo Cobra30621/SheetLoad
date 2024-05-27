@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Card
 {
-    public class CardLevelManager 
+    public class CardLevelHandler 
     {
         // TEST
         [SerializeField] public String cardName;
