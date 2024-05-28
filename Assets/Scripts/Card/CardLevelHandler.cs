@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
+using Data;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace Card
 {
-    public class CardLevelHandler 
+    public class CardLevelHandler : SerializedMonoBehaviour, IDataPersistence
     {
         // TEST
         [SerializeField] public String cardName;
@@ -35,17 +36,17 @@ namespace Card
         {
             return cardLevels.TryGetValue(id, out var cardLevel) ? cardLevel : 0;
         }
-        // public void LoadData(GameData data)
-        // {
-        //     cardLevels = data.cardLevels;
-        //
-        // }
-        //
-        // public void SaveData(GameData data)
-        // {
-        //     data.cardLevels = cardLevels;
-        // }
-        //
+        public void LoadData(GameData data)
+        {
+            cardLevels = data.cardLevels;
+        
+        }
+        
+        public void SaveData(GameData data)
+        {
+            data.cardLevels = cardLevels;
+        }
+        
         
     }
 }
