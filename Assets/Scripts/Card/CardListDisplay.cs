@@ -15,6 +15,7 @@ namespace Card
         [SerializeField] private List<CardBase> spawnedCardList = new List<CardBase>();
         [SerializeField] private Transform spawnPos;
 
+        
         [Button]
         public void Open()
         {

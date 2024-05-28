@@ -56,6 +56,9 @@ namespace Card
         public string EffectID;
         public int Mana;
 
+        public int UpgradeCost;
+        public bool MaxLevel;
+
         public string Description;
 
         public List<SkillInfo> EffectInfos;

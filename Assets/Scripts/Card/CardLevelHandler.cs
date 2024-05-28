@@ -9,9 +9,6 @@ namespace Card
     public class CardLevelHandler : SerializedMonoBehaviour, IDataPersistence
     {
         // TEST
-        [SerializeField] public String cardName;
-        [SerializeField] public int level;
-        // TEST
         public Dictionary<string, int> cardLevels;
         public DeckData SaveCard;
         [Button("初始化字典")]
@@ -25,20 +22,33 @@ namespace Card
             }
         }
         
-        // TEST
-        [Button("AddCardLevel")]
-        public void AddCardLevel()
+        public void UpgradeCard(string id)
         {
-            cardLevels[cardName] = level;
+            bool contain = cardLevels.TryGetValue(id, out var cardLevel);
+
+            Debug.Log($"升級卡牌 {id} 到 {cardLevel + 1}");
+            if (contain)
+            {
+                cardLevels[id]++;
+            }
+            
+            SaveManager.Instance.SaveGame();
         }
         
         public int GetCardLevel(string id)
         {
             return cardLevels.TryGetValue(id, out var cardLevel) ? cardLevel : 0;
         }
+        
+        
         public void LoadData(GameData data)
         {
-            cardLevels = data.cardLevels;
+            if(data.cardLevels != null)
+                cardLevels = data.cardLevels;
+            else
+            {
+                InitDictionary();
+            }
         
         }
         

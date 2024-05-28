@@ -14,7 +14,7 @@ namespace Card.Display
 
         public void UpdateUI(CardInfo cardInfo)
         {
-            nameTextField.text = cardInfo.CardData.CardName;
+            nameTextField.text = cardInfo.CardData.CardName + $" {cardInfo.Level}";
             descTextField.text = cardInfo.Description;
             manaTextField.text = cardInfo.ManaCost.ToString();
             cardImage.sprite = cardInfo.CardData.CardSprite;

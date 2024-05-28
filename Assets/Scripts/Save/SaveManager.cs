@@ -17,11 +17,17 @@ public class SaveManager : Singleton<SaveManager>
     [ShowInInspector] private GameData _gameData;
     [ShowInInspector] [ReadOnly] private List<IDataPersistence> dataPersistenceObjects;
 
+    [SerializeField] private bool loadOnStart;
 
     protected override void DoAtAwake()
     {
         dataPersistenceObjects = FindAllDataPersistenceObjects();
         base.DoAtAwake();
+
+        if (loadOnStart)
+        {
+            LoadGame();
+        }
     }
     
     [Button]
