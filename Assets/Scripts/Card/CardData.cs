@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using NueGames.Enums;
 using Sirenix.OdinInspector;
@@ -28,6 +29,10 @@ namespace Card
 
         public CardLevelInfo GetLevelInfo(int level)
         {
+            if (level >= LevelInfos.Count)
+            {
+                throw new Exception($"level {level} 超過 LevelInfos {LevelInfos.Count} 數量");
+            }
             return LevelInfos[level];
         }
         

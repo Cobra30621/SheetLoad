@@ -9,10 +9,10 @@ namespace Card
     public class CardListDisplay : MonoBehaviour
     {
         [SerializeField] private GameObject mainPanel;
-        [SerializeField] private UICard prefab;
+        [SerializeField] private CardBase prefab;
         
         
-        [SerializeField] private List<UICard> spawnedCardList = new List<UICard>();
+        [SerializeField] private List<CardBase> spawnedCardList = new List<CardBase>();
         [SerializeField] private Transform spawnPos;
 
         [Button]
