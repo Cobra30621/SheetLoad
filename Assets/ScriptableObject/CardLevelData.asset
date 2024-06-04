@@ -22,7 +22,12 @@ MonoBehaviour:
     UpgradeCost: 10
     MaxLevel: 0
     Description: 
-    EffectInfos: []
+    EffectInfos:
+    - ActionType: 1
+      SkillID: 101
+      int1: 1
+      int2: 0
+      int3: 0
   - ID: 102
     EnGroupID: Attack
     GroupID: "\u666E\u653B"
@@ -31,7 +36,12 @@ MonoBehaviour:
     UpgradeCost: 20
     MaxLevel: 0
     Description: 
-    EffectInfos: []
+    EffectInfos:
+    - ActionType: 1
+      SkillID: 102
+      int1: 2
+      int2: 0
+      int3: 0
   - ID: 103
     EnGroupID: Attack
     GroupID: "\u666E\u653B"
@@ -40,7 +50,12 @@ MonoBehaviour:
     UpgradeCost: 30
     MaxLevel: 1
     Description: 
-    EffectInfos: []
+    EffectInfos:
+    - ActionType: 1
+      SkillID: 103
+      int1: 3
+      int2: 0
+      int3: 0
   - ID: 104
     EnGroupID: Dash
     GroupID: "\u885D\u649E"
@@ -49,7 +64,17 @@ MonoBehaviour:
     UpgradeCost: 15
     MaxLevel: 0
     Description: 
-    EffectInfos: []
+    EffectInfos:
+    - ActionType: 1
+      SkillID: 101
+      int1: 1
+      int2: 0
+      int3: 0
+    - ActionType: 50
+      SkillID: 201
+      int1: 2
+      int2: 0
+      int3: 0
   - ID: 105
     EnGroupID: Dash
     GroupID: "\u885D\u649E"
@@ -58,7 +83,17 @@ MonoBehaviour:
     UpgradeCost: 25
     MaxLevel: 0
     Description: 
-    EffectInfos: []
+    EffectInfos:
+    - ActionType: 1
+      SkillID: 102
+      int1: 2
+      int2: 0
+      int3: 0
+    - ActionType: 50
+      SkillID: 202
+      int1: 4
+      int2: 0
+      int3: 0
   - ID: 106
     EnGroupID: Dash
     GroupID: "\u885D\u649E"
@@ -67,7 +102,17 @@ MonoBehaviour:
     UpgradeCost: 35
     MaxLevel: 1
     Description: 
-    EffectInfos: []
+    EffectInfos:
+    - ActionType: 1
+      SkillID: 103
+      int1: 3
+      int2: 0
+      int3: 0
+    - ActionType: 50
+      SkillID: 203
+      int1: 6
+      int2: 0
+      int3: 0
   - ID: 107
     EnGroupID: Flee
     GroupID: "\u9003\u8DD1"
@@ -76,7 +121,17 @@ MonoBehaviour:
     UpgradeCost: 5
     MaxLevel: 0
     Description: 
-    EffectInfos: []
+    EffectInfos:
+    - ActionType: 50
+      SkillID: 201
+      int1: 2
+      int2: 0
+      int3: 0
+    - ActionType: 51
+      SkillID: 301
+      int1: 1
+      int2: 0
+      int3: 0
   - ID: 108
     EnGroupID: Flee
     GroupID: "\u9003\u8DD1"
@@ -85,7 +140,17 @@ MonoBehaviour:
     UpgradeCost: 10
     MaxLevel: 0
     Description: 
-    EffectInfos: []
+    EffectInfos:
+    - ActionType: 50
+      SkillID: 202
+      int1: 4
+      int2: 0
+      int3: 0
+    - ActionType: 51
+      SkillID: 302
+      int1: 2
+      int2: 0
+      int3: 0
   - ID: 109
     EnGroupID: Flee
     GroupID: "\u9003\u8DD1"
@@ -94,4 +159,14 @@ MonoBehaviour:
     UpgradeCost: 15
     MaxLevel: 1
     Description: 
-    EffectInfos: []
+    EffectInfos:
+    - ActionType: 50
+      SkillID: 203
+      int1: 6
+      int2: 0
+      int3: 0
+    - ActionType: 51
+      SkillID: 303
+      int1: 3
+      int2: 0
+      int3: 0

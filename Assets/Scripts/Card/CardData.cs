@@ -31,7 +31,7 @@ namespace Card
         {
             if (level >= LevelInfos.Count)
             {
-                throw new Exception($"level {level} 超過 LevelInfos {LevelInfos.Count} 數量");
+                throw new Exception($"level {level} 超過 {cardName} 的 LevelInfos {LevelInfos.Count} 數量");
             }
             return LevelInfos[level];
         }

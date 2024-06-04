@@ -28,6 +28,8 @@ MonoBehaviour:
     GroupID: "\u666E\u653B"
     EffectID: 101
     Mana: 1
+    UpgradeCost: 10
+    MaxLevel: 0
     Description: 
     EffectInfos:
     - ActionType: 1
@@ -40,6 +42,8 @@ MonoBehaviour:
     GroupID: "\u666E\u653B"
     EffectID: 102
     Mana: 2
+    UpgradeCost: 20
+    MaxLevel: 0
     Description: 
     EffectInfos:
     - ActionType: 1
@@ -52,6 +56,8 @@ MonoBehaviour:
     GroupID: "\u666E\u653B"
     EffectID: 103
     Mana: 3
+    UpgradeCost: 30
+    MaxLevel: 1
     Description: 
     EffectInfos:
     - ActionType: 1
