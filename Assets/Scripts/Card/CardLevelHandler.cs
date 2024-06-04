@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Data;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -43,13 +44,20 @@ namespace Card
         
         public void LoadData(GameData data)
         {
-            if(data.cardLevels != null)
-                cardLevels = data.cardLevels;
-            else
+            InitDictionary();
+            
+            var loadCardLevels = data.cardLevels;
+            if (loadCardLevels != null)
             {
-                InitDictionary();
+                // 存檔內容，要以 SaveDeck 中的資料為主
+                foreach (var cardId in cardLevels.Keys.ToList())
+                {
+                    if (loadCardLevels.ContainsKey(cardId))
+                    {
+                        cardLevels[cardId] = loadCardLevels[cardId];
+                    }
+                }
             }
-        
         }
         
         public void SaveData(GameData data)

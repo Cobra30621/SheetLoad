@@ -21,17 +21,22 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  cardId: 
+  cardId: "\u591A\u91CD\u653B\u64CA"
   _levelInfos:
   - ID: 0
     EnGroupID: 
     GroupID: 
     EffectID: 
     Mana: 0
+    UpgradeCost: 0
+    MaxLevel: 0
+    Description: 
     EffectInfos:
     - ActionType: 2
-      EffectID: 0
-      action: 
+      SkillID: 0
       int1: 10
       int2: 5
       int3: 0
+  cardName: 
+  cardSprite: {fileID: 0}
+  rarity: 0
